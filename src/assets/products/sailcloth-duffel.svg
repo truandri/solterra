@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#ECE5DA"/>
+    </linearGradient>
+    <linearGradient id="sailGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1EDE4"/>
+      <stop offset="100%" stop-color="#DCD5C8"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#023047" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgLight)"/>
+
+  <!-- Upcycled Sailcloth 35L Duffel Bag -->
+  <g filter="url(#dropShadow)" transform="translate(130, 130)">
+    <!-- Main Duffel Barrel Body -->
+    <rect x="50" y="100" width="440" height="230" rx="40" fill="url(#sailGrad)" stroke="#023047" stroke-width="4"/>
+    
+    <!-- Authentic Racing Sail Zigzag Stitch Pattern -->
+    <path d="M50 140 L490 140" stroke="#fb8500" stroke-width="3" stroke-dasharray="8 6"/>
+    <path d="M50 290 L490 290" stroke="#023047" stroke-width="3" stroke-dasharray="10 8"/>
+
+    <!-- Bold Nautical Sail Number (Authentic Upcycled Provenance) -->
+    <text x="140" y="240" fill="#023047" font-family="'Impact', 'Arial Black', sans-serif" font-size="90" opacity="0.88">74</text>
+    <text x="260" y="235" fill="#fb8500" font-family="'Impact', 'Arial Black', sans-serif" font-size="65">AUS</text>
+
+    <!-- Heavy-Duty Recycled Webbing Handles -->
+    <path d="M160 100 L160 40 Q 270 10 380 40 L380 100" fill="none" stroke="#023047" stroke-width="22" stroke-linecap="round"/>
+    <path d="M160 100 L160 40 Q 270 10 380 40 L380 100" fill="none" stroke="#ffb703" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Heavy AquaGuard Weatherproof Zipper Track across top -->
+    <line x1="90" y1="100" x2="450" y2="100" stroke="#023047" stroke-width="6"/>
+    <!-- Metal Zipper Pull -->
+    <rect x="250" y="93" width="30" height="14" rx="4" fill="#ffb703" stroke="#023047" stroke-width="2"/>
+
+    <!-- Side Ventilated Wet Pocket / Shoe Stash -->
+    <path d="M450 120 L480 140 L480 290 L450 310" fill="#219ebc" opacity="0.3"/>
+    
+    <!-- Solterra Upcycle Certified Metal Badge -->
+    <rect x="360" y="250" width="90" height="40" rx="8" fill="#023047"/>
+    <text x="405" y="268" fill="#8ecae6" font-family="sans-serif" font-weight="bold" font-size="8" text-anchor="middle" letter-spacing="1">UPCYCLED</text>
+    <text x="405" y="282" fill="#ffb703" font-family="sans-serif" font-weight="bold" font-size="9" text-anchor="middle">DACRON SAIL</text>
+  </g>
+</svg>

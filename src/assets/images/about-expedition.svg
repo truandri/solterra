@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  <defs>
+    <linearGradient id="baySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8ecae6"/>
+      <stop offset="60%" stop-color="#E0F2F8"/>
+      <stop offset="100%" stop-color="#FFF2DF"/>
+    </linearGradient>
+    <linearGradient id="bayWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#219ebc"/>
+      <stop offset="50%" stop-color="#023047"/>
+      <stop offset="100%" stop-color="#011824"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="450" fill="url(#baySky)"/>
+  <rect y="420" width="100%" height="330" fill="url(#bayWater)"/>
+
+  <!-- Distant Headlands & Coastal Dunes -->
+  <polygon points="0,420 200,340 450,380 700,320 1000,390 1000,430 0,430" fill="#2a453b"/>
+  <polygon points="350,420 520,360 850,410 1000,370 1000,430 350,430" fill="#1b2e27" opacity="0.7"/>
+
+  <!-- Ocean Kayakers in Expedition Array -->
+  <!-- Kayak 1 -->
+  <g transform="translate(280, 480) scale(1.1)">
+    <!-- Sea Kayak Hull -->
+    <path d="M-60 15 Q 120 -5 300 15 Q 120 30 -60 15 Z" fill="#fb8500" stroke="#023047" stroke-width="3"/>
+    <!-- Paddler -->
+    <circle cx="120" cy="-35" r="14" fill="#023047"/>
+    <path d="M105 -20 L135 -20 L140 10 L100 10 Z" fill="#219ebc"/> <!-- PFD Lifevest -->
+    <!-- Paddle angled in stroke -->
+    <line x1="70" y1="25" x2="170" y2="-50" stroke="#023047" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="65" cy="28" rx="14" ry="7" fill="#ffb703"/>
+    <ellipse cx="175" cy="-53" rx="14" ry="7" fill="#ffb703"/>
+  </g>
+
+  <!-- Kayak 2 (Further in distance) -->
+  <g transform="translate(560, 440) scale(0.8)">
+    <path d="M-60 15 Q 120 -5 300 15 Q 120 30 -60 15 Z" fill="#219ebc" stroke="#023047" stroke-width="3"/>
+    <circle cx="120" cy="-35" r="14" fill="#023047"/>
+    <path d="M105 -20 L135 -20 L140 10 L100 10 Z" fill="#fb8500"/>
+    <line x1="60" y1="-45" x2="180" y2="20" stroke="#023047" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="55" cy="-48" rx="14" ry="7" fill="#ffb703"/>
+    <ellipse cx="185" cy="23" rx="14" ry="7" fill="#ffb703"/>
+  </g>
+
+  <!-- Water Wake Reflections -->
+  <path d="M200 520 Q 350 515 500 520" fill="none" stroke="#8ecae6" stroke-width="3" opacity="0.6"/>
+  <path d="M500 470 Q 650 465 800 470" fill="none" stroke="#8ecae6" stroke-width="2.5" opacity="0.5"/>
+</svg>

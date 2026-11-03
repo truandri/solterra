@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="towelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F4F8"/>
+      <stop offset="100%" stop-color="#D7EBF2"/>
+    </linearGradient>
+    <linearGradient id="towelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#219ebc"/>
+      <stop offset="40%" stop-color="#023047"/>
+      <stop offset="70%" stop-color="#fb8500"/>
+      <stop offset="100%" stop-color="#ffb703"/>
+    </linearGradient>
+    <filter id="towelShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#023047" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#towelBg)"/>
+
+  <!-- Folded & Rolled Beach Towel with Coastal Contour Pattern -->
+  <g filter="url(#towelShadow)" transform="translate(160, 110)">
+    <!-- Folded Base Towel -->
+    <rect x="0" y="80" width="480" height="280" rx="32" fill="url(#towelGrad)" stroke="#023047" stroke-width="4"/>
+
+    <!-- Waffle Sand-Repelling Weave Grid Lines -->
+    <path d="M0 120 L480 120 M0 160 L480 160 M0 200 L480 200 M0 240 L480 240 M0 280 L480 280 M0 320 L480 320" stroke="#FAF8F5" stroke-width="1.5" stroke-opacity="0.3"/>
+    <path d="M60 80 L60 360 M120 80 L120 360 M180 80 L180 360 M240 80 L240 360 M300 80 L300 360 M360 80 L360 360 M420 80 L420 360" stroke="#FAF8F5" stroke-width="1.5" stroke-opacity="0.3"/>
+
+    <!-- Topographic Australian Coast Contour Waves -->
+    <path d="M0 180 Q 120 140 240 180 T 480 180" fill="none" stroke="#FAF8F5" stroke-width="4"/>
+    <path d="M0 210 Q 120 170 240 210 T 480 210" fill="none" stroke="#FAF8F5" stroke-width="4"/>
+    <path d="M0 240 Q 120 200 240 240 T 480 240" fill="none" stroke="#FAF8F5" stroke-width="4"/>
+
+    <!-- Integrated Hanging Elastic Loop & Hidden Pocket Zipper -->
+    <rect x="420" y="80" width="40" height="18" rx="6" fill="#023047"/>
+    <line x1="320" y1="340" x2="450" y2="340" stroke="#023047" stroke-width="4"/>
+    <circle cx="330" cy="340" r="4" fill="#ffb703"/>
+
+    <!-- Rolled Towel sitting on top with webbing strap -->
+    <g transform="translate(60, 20)">
+      <rect x="0" y="0" width="360" height="85" rx="30" fill="#ffb703" stroke="#023047" stroke-width="3"/>
+      <!-- Compression strap -->
+      <rect x="120" y="-4" width="22" height="93" fill="#023047"/>
+      <rect x="230" y="-4" width="22" height="93" fill="#023047"/>
+      <text x="180" y="48" fill="#023047" font-family="'Outfit', sans-serif" font-weight="900" font-size="16" text-anchor="middle" letter-spacing="2">28 PLASTIC BOTTLES</text>
+    </g>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(540, 480)">
+    <rect width="210" height="52" rx="14" fill="#023047"/>
+    <text x="105" y="24" fill="#ffb703" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" letter-spacing="2">SAND-FREE WAFFLE</text>
+    <text x="105" y="41" fill="#8ecae6" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">Absorbs 1L • Rapid Dry</text>
+  </g>
+</svg>

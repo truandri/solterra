@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="artBgLongevity" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a453b"/>
+      <stop offset="50%" stop-color="#023047"/>
+      <stop offset="100%" stop-color="#14221b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#artBgLongevity)"/>
+  <!-- Circular Loop Gear Arrows -->
+  <g transform="translate(600, 320)">
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#ffb703" stroke-width="14" stroke-dasharray="140 40"/>
+    <polygon points="120,-80 150,-50 100,-40" fill="#ffb703"/>
+    <polygon points="-120,80 -150,50 -100,40" fill="#ffb703"/>
+    <!-- Repair Needle & Wrench Emblem in center -->
+    <circle cx="0" cy="0" r="60" fill="#023047" stroke="#219ebc" stroke-width="4"/>
+    <text x="0" y="10" fill="#8ecae6" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" text-anchor="middle">LOOP</text>
+  </g>
+  <!-- Banner -->
+  <rect x="250" y="550" width="700" height="120" rx="24" fill="#FAF8F5" opacity="0.95"/>
+  <text x="600" y="605" fill="#023047" font-family="'Outfit', sans-serif" font-weight="900" font-size="32" text-anchor="middle" letter-spacing="2">THE ART OF GEAR LONGEVITY</text>
+  <text x="600" y="640" fill="#fb8500" font-family="sans-serif" font-weight="700" font-size="16" text-anchor="middle" letter-spacing="4">REPAIR, RE-WATERPROOF, AND EXPLORE FOR DECADES</text>
+</svg>

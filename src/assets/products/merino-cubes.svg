@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgCube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#ECE5DA"/>
+    </linearGradient>
+    <linearGradient id="merinoGrey" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="merinoSand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2D9CC"/>
+      <stop offset="100%" stop-color="#C5B8A5"/>
+    </linearGradient>
+    <filter id="cubeShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#023047" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgCube)"/>
+
+  <!-- Compressible Packing Cubes Stacked -->
+  <g filter="url(#cubeShadow)" transform="translate(160, 90)">
+    <!-- Large Cube -->
+    <rect x="20" y="160" width="440" height="240" rx="28" fill="url(#merinoGrey)" stroke="#023047" stroke-width="4"/>
+    <!-- Mesh Top Window -->
+    <rect x="60" y="190" width="360" height="180" rx="18" fill="#1E293B" opacity="0.65" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4"/>
+    <!-- Double Compression Zipper Track -->
+    <rect x="20" y="270" width="440" height="14" fill="#ffb703" stroke="#023047" stroke-width="2"/>
+    <rect x="230" y="265" width="22" height="24" rx="4" fill="#023047"/>
+
+    <!-- Medium Cube resting over corner -->
+    <g transform="translate(60, 30)">
+      <rect x="0" y="0" width="340" height="170" rx="24" fill="url(#merinoSand)" stroke="#023047" stroke-width="3"/>
+      <!-- Mesh window -->
+      <rect x="30" y="25" width="280" height="120" rx="14" fill="#B0A28E" opacity="0.7" stroke="#8A7A64" stroke-width="2" stroke-dasharray="4 4"/>
+      <!-- Compression zipper -->
+      <rect x="0" y="80" width="340" height="10" fill="#fb8500" stroke="#023047" stroke-width="1.5"/>
+      <text x="170" y="90" fill="#023047" font-family="sans-serif" font-weight="800" font-size="12" text-anchor="middle" letter-spacing="2">ETHICAL MERINO</text>
+    </g>
+
+    <!-- Handle -->
+    <rect x="180" y="385" width="120" height="15" rx="6" fill="#023047"/>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(540, 480)">
+    <rect width="210" height="52" rx="14" fill="#023047"/>
+    <text x="105" y="24" fill="#ffb703" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" letter-spacing="2">NON-MULESED MERINO</text>
+    <text x="105" y="41" fill="#8ecae6" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">Odor-Free Travel Kit</text>
+  </g>
+</svg>

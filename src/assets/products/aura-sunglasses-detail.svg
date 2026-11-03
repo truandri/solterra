@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EFEA"/>
+      <stop offset="100%" stop-color="#E8E0D2"/>
+    </linearGradient>
+    <linearGradient id="corkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7BA89"/>
+      <stop offset="50%" stop-color="#C2A06E"/>
+      <stop offset="100%" stop-color="#9C794A"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#023047" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Folded Sunglasses resting on Natural Recycled Cork Travel Case -->
+  <g filter="url(#shadow)" transform="translate(140, 140)">
+    <!-- Cork Case -->
+    <rect x="20" y="80" width="480" height="260" rx="36" fill="url(#corkGrad)" stroke="#8A673B" stroke-width="3"/>
+    
+    <!-- Cork Texture Stippling -->
+    <circle cx="80" cy="120" r="3" fill="#6E4D25" opacity="0.4"/>
+    <circle cx="140" cy="200" r="4" fill="#6E4D25" opacity="0.3"/>
+    <circle cx="280" cy="140" r="3" fill="#6E4D25" opacity="0.4"/>
+    <circle cx="420" cy="220" r="5" fill="#6E4D25" opacity="0.3"/>
+    <circle cx="360" cy="280" r="4" fill="#6E4D25" opacity="0.4"/>
+
+    <!-- Case Magnetic Flap Clasp -->
+    <path d="M220 80 L300 80 L290 125 L230 125 Z" fill="#023047"/>
+    <circle cx="260" cy="110" r="5" fill="#ffb703"/>
+
+    <!-- Solterra Loop Embossed Wordmark -->
+    <text x="260" y="220" fill="#4A3419" font-family="sans-serif" font-weight="800" font-size="18" text-anchor="middle" letter-spacing="4">SOLTERRA CASE</text>
+    <text x="260" y="244" fill="#6E4D25" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">RECYCLED PORTUGUESE CORK</text>
+
+    <!-- Folded Bio-Acetate Frame angled across top -->
+    <g transform="rotate(-12, 260, 160)">
+      <rect x="120" y="60" width="280" height="65" rx="20" fill="#fb8500" stroke="#023047" stroke-width="3"/>
+      <path d="M130 92 L390 92" stroke="#ffb703" stroke-width="4"/>
+      <circle cx="150" cy="92" r="5" fill="#023047"/>
+      <circle cx="370" cy="92" r="5" fill="#023047"/>
+    </g>
+  </g>
+</svg>

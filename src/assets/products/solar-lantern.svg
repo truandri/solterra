@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#fb8500" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FAF8F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#023047"/>
+      <stop offset="100%" stop-color="#0F4C6E"/>
+    </linearGradient>
+    <linearGradient id="bodySilicone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFECD1" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="lanternShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#fb8500" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+
+  <!-- Radial Lantern Warm Ambient Glow -->
+  <circle cx="400" cy="300" r="260" fill="url(#sunGlow)"/>
+
+  <!-- Collapsible Solar Lantern Body -->
+  <g filter="url(#lanternShadow)" transform="translate(250, 100)">
+    <!-- Hanging Strap Handle -->
+    <path d="M70 70 C70 -20 230 -20 230 70" fill="none" stroke="#fb8500" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Top Cap with Monocrystalline Solar Cells -->
+    <rect x="30" y="60" width="240" height="40" rx="12" fill="url(#panelGrad)" stroke="#ffb703" stroke-width="2"/>
+    <!-- Solar wafer grid -->
+    <rect x="50" y="66" width="45" height="28" rx="4" fill="#001824" stroke="#219ebc" stroke-width="1"/>
+    <rect x="105" y="66" width="45" height="28" rx="4" fill="#001824" stroke="#219ebc" stroke-width="1"/>
+    <rect x="160" y="66" width="45" height="28" rx="4" fill="#001824" stroke="#219ebc" stroke-width="1"/>
+    <circle cx="230" cy="80" r="6" fill="#ffb703"/> <!-- Power button -->
+
+    <!-- Translucent Food-Grade Silicone Expandable Lantern Shade -->
+    <polygon points="40,100 260,100 285,320 15,320" fill="url(#bodySilicone)" stroke="#023047" stroke-width="3"/>
+
+    <!-- Silicone Bellow Accordion Folds -->
+    <path d="M30 150 Q 150 165 270 150" fill="none" stroke="#fb8500" stroke-width="3"/>
+    <path d="M22 210 Q 150 225 278 210" fill="none" stroke="#fb8500" stroke-width="3"/>
+    <path d="M17 270 Q 150 285 283 270" fill="none" stroke="#fb8500" stroke-width="3"/>
+
+    <!-- Base Ring -->
+    <rect x="10" y="320" width="280" height="35" rx="10" fill="#023047" stroke="#ffb703" stroke-width="2"/>
+    <text x="150" y="342" fill="#ffb703" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" letter-spacing="2">300 LUMENS • USB-C</text>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(540, 480)">
+    <rect width="210" height="52" rx="14" fill="#023047"/>
+    <text x="105" y="24" fill="#ffb703" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" letter-spacing="2">SOLAR POWER BANK</text>
+    <text x="105" y="41" fill="#8ecae6" font-family="sans-serif" font-weight="600" font-size="11" text-anchor="middle">IP67 Waterproof & Floats</text>
+  </g>
+</svg>

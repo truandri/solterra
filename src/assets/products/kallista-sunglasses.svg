@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="oceanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F4F8"/>
+      <stop offset="100%" stop-color="#D0E8F0"/>
+    </linearGradient>
+    <linearGradient id="netGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#023047"/>
+      <stop offset="100%" stop-color="#14465F"/>
+    </linearGradient>
+    <linearGradient id="lensOcean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#219ebc"/>
+      <stop offset="70%" stop-color="#023047"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#023047" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#oceanBg)"/>
+
+  <!-- Net Weave Motif in background -->
+  <path d="M50 50 L750 550 M150 50 L750 450 M50 150 L650 550 M250 50 L750 350 M50 250 L550 550" stroke="#219ebc" stroke-width="1" stroke-opacity="0.15"/>
+  <path d="M750 50 L50 550 M650 50 L50 450 M750 150 L150 550 M550 50 L50 350 M750 250 L250 550" stroke="#219ebc" stroke-width="1" stroke-opacity="0.15"/>
+
+  <!-- Ghost Net Sunglasses -->
+  <g filter="url(#shadow)" transform="translate(100, 160)">
+    <!-- Angular Navigator Frame -->
+    <polygon points="50,60 250,50 270,180 80,195" fill="url(#netGrad)" stroke="#219ebc" stroke-width="3"/>
+    <polygon points="330,50 530,60 500,195 310,180" fill="url(#netGrad)" stroke="#219ebc" stroke-width="3"/>
+    
+    <!-- Double Top Bar -->
+    <rect x="230" y="58" width="120" height="12" rx="4" fill="#023047" stroke="#219ebc" stroke-width="2"/>
+    <rect x="245" y="80" width="90" height="10" rx="3" fill="#023047"/>
+
+    <!-- Lenses with Mirror Marine Glaze -->
+    <polygon points="65,72 235,65 252,168 92,180" fill="url(#lensOcean)"/>
+    <polygon points="345,65 515,72 488,180 328,168" fill="url(#lensOcean)"/>
+
+    <!-- Reflections -->
+    <polygon points="80,78 140,76 110,175 75,175" fill="#ffffff" opacity="0.35"/>
+    <polygon points="360,76 420,78 390,175 355,175" fill="#ffffff" opacity="0.35"/>
+
+    <!-- Temple hinges -->
+    <rect x="35" y="65" width="18" height="25" rx="3" fill="#ffb703"/>
+    <rect x="527" y="65" width="18" height="25" rx="3" fill="#ffb703"/>
+  </g>
+
+  <!-- Tag -->
+  <g transform="translate(520, 480)">
+    <rect width="220" height="55" rx="14" fill="#023047"/>
+    <text x="110" y="26" fill="#8ecae6" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" letter-spacing="2">RECYCLED GHOST NET</text>
+    <text x="110" y="44" fill="#ffb703" font-family="sans-serif" font-weight="700" font-size="11" text-anchor="middle">Polarized Marine Shield</text>
+  </g>
+</svg>

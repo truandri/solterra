@@ -1,0 +1,6 @@
+{
+  "name": "Solterra | Eco-Friendly Outdoor Lifestyle Marketplace",
+  "description": "Solterra connects environmentally conscious explorers with premium sustainable outdoor lifestyle brands, eco eyewear, travel accessories, and low-impact gear.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

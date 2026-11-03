@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="artBgGhost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#023047"/>
+      <stop offset="70%" stop-color="#219ebc"/>
+      <stop offset="100%" stop-color="#ffb703"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#artBgGhost)"/>
+  <!-- Commercial Fishing Net Geometric Webbing Pattern -->
+  <path d="M0 100 L1200 700 M0 200 L1200 800 M0 300 L1200 900 M0 0 L1200 600" stroke="#8ecae6" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M1200 100 L0 700 M1200 200 L0 800 M1200 300 L0 900 M1200 0 L0 600" stroke="#8ecae6" stroke-width="2" stroke-opacity="0.3"/>
+  <!-- Australian Wave & Turtle motif -->
+  <circle cx="600" cy="300" r="130" fill="#023047" stroke="#fb8500" stroke-width="6"/>
+  <text x="600" y="315" fill="#ffb703" font-family="'Outfit', sans-serif" font-weight="900" font-size="44" text-anchor="middle">BYRON BAY</text>
+  <!-- Banner -->
+  <rect x="250" y="550" width="700" height="120" rx="24" fill="#FAF8F5" opacity="0.95"/>
+  <text x="600" y="605" fill="#023047" font-family="'Outfit', sans-serif" font-weight="900" font-size="30" text-anchor="middle" letter-spacing="2">GHOST NET RECOVERY TO GEAR</text>
+  <text x="600" y="640" fill="#219ebc" font-family="sans-serif" font-weight="700" font-size="16" text-anchor="middle" letter-spacing="4">BYRON BAY ARTISANS SPOTLIGHT</text>
+</svg>
